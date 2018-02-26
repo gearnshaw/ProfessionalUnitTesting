@@ -13,6 +13,8 @@
 		FA570F352020ED7D002A6DA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA570F342020ED7D002A6DA9 /* Assets.xcassets */; };
 		FA570F382020ED7D002A6DA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA570F362020ED7D002A6DA9 /* LaunchScreen.storyboard */; };
 		FA570F432020ED7E002A6DA9 /* ProfessionalUnitTestingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA570F422020ED7E002A6DA9 /* ProfessionalUnitTestingTests.swift */; };
+		FAB688692026021700990A2C /* OneOrManyCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB688682026021700990A2C /* OneOrManyCalculator.swift */; };
+		FAB6886D20260F6100990A2C /* OneOrManyCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB6886C20260F6100990A2C /* OneOrManyCalculatorTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		FA570F3E2020ED7E002A6DA9 /* ProfessionalUnitTestingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProfessionalUnitTestingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA570F422020ED7E002A6DA9 /* ProfessionalUnitTestingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfessionalUnitTestingTests.swift; sourceTree = "<group>"; };
 		FA570F442020ED7E002A6DA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAB688682026021700990A2C /* OneOrManyCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneOrManyCalculator.swift; sourceTree = "<group>"; };
+		FAB6886C20260F6100990A2C /* OneOrManyCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneOrManyCalculatorTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,7 @@
 				FA570F342020ED7D002A6DA9 /* Assets.xcassets */,
 				FA570F362020ED7D002A6DA9 /* LaunchScreen.storyboard */,
 				FA570F392020ED7D002A6DA9 /* Info.plist */,
+				FAB688682026021700990A2C /* OneOrManyCalculator.swift */,
 			);
 			path = ProfessionalUnitTesting;
 			sourceTree = "<group>";
@@ -92,6 +97,7 @@
 			children = (
 				FA570F422020ED7E002A6DA9 /* ProfessionalUnitTestingTests.swift */,
 				FA570F442020ED7E002A6DA9 /* Info.plist */,
+				FAB6886C20260F6100990A2C /* OneOrManyCalculatorTests.swift */,
 			);
 			path = ProfessionalUnitTestingTests;
 			sourceTree = "<group>";
@@ -200,6 +206,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA570F302020ED7D002A6DA9 /* ViewController.swift in Sources */,
+				FAB688692026021700990A2C /* OneOrManyCalculator.swift in Sources */,
 				FA570F2E2020ED7D002A6DA9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -208,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAB6886D20260F6100990A2C /* OneOrManyCalculatorTests.swift in Sources */,
 				FA570F432020ED7E002A6DA9 /* ProfessionalUnitTestingTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -354,6 +362,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 622P8V8VHX;
 				INFOPLIST_FILE = ProfessionalUnitTesting/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gabriellelittler.ProfessionalUnitTesting;
@@ -368,6 +377,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 622P8V8VHX;
 				INFOPLIST_FILE = ProfessionalUnitTesting/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gabriellelittler.ProfessionalUnitTesting;
